@@ -46,7 +46,7 @@ public class Rational implements Comparable<Rational>{
         return denominator;
     }
 
-    public double getResult(){ //Sonuç objesini döndürür.
+    public double getResult(){ //Sonuç değerini döndürür.
         return result;
     }
 
