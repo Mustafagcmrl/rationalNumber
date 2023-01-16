@@ -30,12 +30,12 @@ public class Rational implements Comparable<Rational>{
 
     public void SetNumerator(int value){ //sets numerator
         numerator = value;
-        setResult();
+        setResult(); //updates result
     }
 
     public void SetDenominator(int value){ //sets denominator
         denominator = value;
-        setResult();
+        setResult(); //updates result
     }
 
     public int GetNumerator(){ //returns numerator
