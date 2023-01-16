@@ -6,8 +6,8 @@ public class Rational implements Comparable<Rational>{
     private double result;
 
     public Rational(int numerator, int denominator){ //constructor
-       this.numerator = 9;
-       this.denominator = 3;
+       this.numerator = numerator;
+       this.denominator = denominator;
        result = (double)numerator/denominator;
        numberOfObjects += 1;
     }
